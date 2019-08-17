@@ -1,0 +1,160 @@
+% Resume in LateX
+% Author : Yuan Chen
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[charter]{mathdesign} 
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & #2 \\
+      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+\begin{document}
+\begin{center}
+  \small \textbf{\href{chenyuan99.github.io}{\huge Yuan Chen}} \\  \href{mailto:chenyuan99@yahoo.com}{\color{blue}\underline{chenyuan99@yahoo.com}} $\vert$
+  540-998-0396 $\vert$
+  LinkedIn: \href{https://www.linkedin.com/in/chenyuan99/}{\color{blue}\underline{chenyuan99}} $\vert$
+  Github: \href{https://github.com/chenyuan99}{\color{blue}\underline{chenyuan99}} \\
+  \small 917 University City Blvd Apt D9, Blacksburg, VA, 24060
+\end{center}
+\shorterSection{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Virginia Tech}{Blacksburg, VA}
+      {Bachelor of Science, Major in Computer Science, Minor in Business;  GPA: 3.32/4.0}{Expected May 2021}{
+       \resumeItemNoBullet{Relevant Coursework}{Software Design and Data Structure, Computer Organization, Machine Learning, Computer Vision}
+        \resumeItemNoBullet{Other Coursework}{Calculus,  Linear Algebra, Discrete Maths, Applied Combinatorics, Game Theory}
+    }
+  \resumeSubHeadingListEnd
+\shorterSection{Skills}
+  \resumeSubHeadingListStart
+  \small
+    \item{
+     \textbf{Coding Skills}{:  Java, Python, C, MATLAB, SQL, LaTeX, C\#, R}
+      \vspace{-5pt}
+      }
+    \item{
+     \textbf{Technical Skills}{: Excel, Inventor, Linux, GCP, GitHub, GitLab, Unity}
+    \vspace{-5pt}
+    }
+    \item{
+     \textbf{Languages}{: English, Mandarin, Shanghainese}
+    }
+\resumeSubHeadingListEnd
+\shorterSection{Working Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {3D Optical Information Lab at Virginia Tech}{Blacksburg, VA}
+      {Undergraduate Research Assistant (Computer Vision)}{April 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{ilastik}
+          {Label Data Sets for training the network and use image processing methods segmenting}
+        \resumeItem{MATLAB}
+          {Develop algorithms for Object Detection using MATLAB which increased 10 percent in efficiency and correctness.
+          }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Virginia Tech Dining Service}{Blacksburg, VA}  {Student Employee}{March 2018 - May 2018}
+        \begin{itemize}
+            \item Serve and Produce food for customers
+            \end{itemize}
+
+    \resumeSubheading
+      {Tengfei Education Co, Ltd.}{Jiangyin, China}
+      {Teaching Assistant}{July 2017}
+      \begin{itemize}
+            \item Assist teachers and students to take the courses fit their timetable
+            \item	Assist teachers to clean the blackboard and to correct the tests
+        \end{itemize}
+            \resumeSubheading
+      {Bank of China, Branch of Jiangyin}{Jiangyin, China}  {Volunteer Intern}{February 2016}
+\begin{itemize}
+            \item Communicate with customers, direct them to different bankers for different businesses
+            \item	Assist manager to make sure customers feel comfortable while waiting and improved the satisfaction rate
+        \end{itemize}
+  \resumeSubHeadingListEnd
+\shorterSection{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Sea Urchin Spine Structure Visualization in Oculus Go}
+     {A VR program help college students and visitor understand our research project
+        \vspace{-5pt}
+        \begin{itemize}
+            \item Implemented a program visualize complicated functions
+            \item Implemented Unity to display graphics in Microsoft HoloLens
+        \end{itemize}
+     }
+         \resumeSubItem{Multivariable Calculus Visualization in Microsoft HoloLens }
+     {An AR program help college students understand calculus concept
+        \vspace{-5pt}
+        \begin{itemize}
+            \item Implemented a program visualize complicated functions
+            \item Implemented Unity to display graphics in Microsoft HoloLens
+        \end{itemize}
+     }
+  \resumeSubHeadingListEnd
+  
+  
+\shorterSection{Leadership Experience}
+	\resumeSubHeadingListStart
+		\resumeSubheading
+      {International Student Association at Virginia Tech (VTISA)}{Blacksburg, VA}
+      {Media Director}{March 2018 - Present}
+      \begin{itemize}
+      \item Develop and maintain Websites\item Provide Tech supports for cultural events\item Maintain Social Media 
+      \end{itemize}
+      \resumeSubHeadingListEnd
+            
+  
+\shorterSection{Additional Experience \& Achievements}
+  \resumeSubHeadingListStart
+  \small
+    \item{Dean's List, Spring 2018}
+    \vspace{-5pt}
+    \item{First Prize in the 29th National Olympic Biology Contest (Wuxi District), May 2015}
+  \resumeSubHeadingListEnd
+\end{document}
